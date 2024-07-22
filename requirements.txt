@@ -1,0 +1,9 @@
+# Core libraries
+llama-index==0.0.1  # Replace with the actual version if known
+
+# Libraries for environment management and data handling
+python-dotenv==1.0.0
+jsonschema==4.17.3  # Optional: Often used with JSON handling
+
+# Libraries for querying and indexing
+requests==2.28.2  # Required if llama-index relies on HTTP requests
